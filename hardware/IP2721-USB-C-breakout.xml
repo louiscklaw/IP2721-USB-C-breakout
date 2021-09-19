@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/logic/_workspace/IP2721-USB-C-breakout/hardware/IP2721-USB-C-breakout.sch</source>
+    <date>Sun Sep 19 20:36:41 2021</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IP2721-USB-C-breakout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>IP2721</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <libsource lib="IP2721-USB-C-breakout" part="IP2721" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6147179B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C105,0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="taobao-c" part="C105,0805" description="Unpolarized capacitor, small symbol, 1000000(p) ,1000(n) ,1.0(u)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61476D8D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R513,0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="taobao-r" part="R513,0805" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61478234</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R513,0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="taobao-r" part="R513,0805" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61478958</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C106,0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="taobao-c" part="C106,0805" description="Unpolarized capacitor, small symbol, 10000000(p) ,10000(n) ,10(u)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A1D7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R104,0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="taobao-r" part="R104,0805" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148BC51</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61499FA4</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>footprint:MountingHole_3.2mm_M3,rpi_like</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A90BC</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>footprint:MountingHole_3.2mm_M3,rpi_like</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A91EE</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>footprint:MountingHole_3.2mm_M3,rpi_like</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A93B1</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>footprint:MountingHole_3.2mm_M3,rpi_like</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A93BB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>footprint:AO3400,SOT23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <libsource lib="taobao-transistor" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614C35AE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>USB_C_PD_CONNECTOR</value>
+      <footprint>footprint:USBC_16PIN</footprint>
+      <libsource lib="IP2721-USB-C-breakout" part="USB_C_PD_CONNECTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61491608</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IP2721-USB-C-breakout" part="IP2721">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IP2721</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUSG" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="TST1" type="NotConnected"/>
+        <pin num="7" name="TST2" type="NotConnected"/>
+        <pin num="8" name="TST3" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="SEL" type="input"/>
+        <pin num="12" name="CC2" type="input"/>
+        <pin num="13" name="CC1" type="input"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="NC" type="NotConnected"/>
+        <pin num="16" name="VBUS" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="IP2721-USB-C-breakout" part="USB_C_PD_CONNECTOR">
+      <footprints>
+        <fp>footprint:USBC_16PIN</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB_C_PD_CONNECTOR</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="input"/>
+        <pin num="B5" name="CC2" type="input"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="S1" name="0" type="NotConnected"/>
+        <pin num="VBUS" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="taobao-c" part="C105,0805">
+      <description>Unpolarized capacitor, small symbol, 1000000(p) ,1000(n) ,1.0(u)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C105,0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="taobao-c" part="C106,0805">
+      <description>Unpolarized capacitor, small symbol, 10000000(p) ,10000(n) ,10(u)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C106,0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="taobao-r" part="R104,0805">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Resistor_SMD:R_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R104,0805</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="taobao-r" part="R513,0805">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Resistor_SMD:R_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R513,0805</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="taobao-transistor" part="2N7002">
+      <aliases>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="IP2721-USB-C-breakout">
+      <uri>/home/logic/_workspace/IP2721-USB-C-breakout/hardware/IP2721-USB-C-breakout.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="taobao-c">
+      <uri>/home/logic/_workspace/kicad_library/kicad-symbols/taobao-c.lib</uri>
+    </library>
+    <library logical="taobao-r">
+      <uri>/home/logic/_workspace/kicad_library/kicad-symbols/taobao-r.lib</uri>
+    </library>
+    <library logical="taobao-transistor">
+      <uri>/home/logic/_workspace/kicad_library/kicad-symbols/taobao-transistor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CC2">
+      <node ref="U2" pin="A5"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="2" name="SEL">
+      <node ref="U1" pin="11"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="3" name="VIN">
+      <node ref="Q1" pin="D"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="VBUS"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="GND"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(U2-PadS1)">
+      <node ref="U2" pin="S1"/>
+    </net>
+    <net code="6" name="Net-(U2-PadS1)">
+      <node ref="U2" pin="S1"/>
+    </net>
+    <net code="7" name="CC1">
+      <node ref="U1" pin="13"/>
+      <node ref="U2" pin="B5"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q1-PadG)">
+      <node ref="Q1" pin="G"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="9" name="VOUT">
+      <node ref="U1" pin="16"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+  </nets>
+</export>

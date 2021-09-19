@@ -1,0 +1,35 @@
+Cmp-Mod V01 Created by PcbNew   date = Sun Sep 19 18:30:01 2021
+
+BeginCmp
+TimeStamp = 61470E0E
+Path = /6145F4A7
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = footprint:MountingHole_3.2mm_M3,rpi_like;
+EndCmp
+
+BeginCmp
+TimeStamp = 61470E01
+Path = /6145F2BE
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = footprint:MountingHole_3.2mm_M3,rpi_like;
+EndCmp
+
+BeginCmp
+TimeStamp = 61470DF7
+Path = /6145F63E
+Reference = H4;
+ValeurCmp = MountingHole;
+IdModule  = footprint:MountingHole_3.2mm_M3,rpi_like;
+EndCmp
+
+BeginCmp
+TimeStamp = 61470DED
+Path = /6145F800
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = footprint:MountingHole_3.2mm_M3,rpi_like;
+EndCmp
+
+EndListe

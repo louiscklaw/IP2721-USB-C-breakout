@@ -1,0 +1,21 @@
+Reference, Value, Footprint, Datasheet,
+U1,IP2721,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,,
+C2,"C105,0805",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,
+R1,"R513,0805",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,
+R2,"R513,0805",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,
+C1,"C106,0805",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,
+R3,"R104,0805",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,
+J1,Conn_01x02_Female,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,
+Q1,AO3400A,"footprint:AO3400,SOT23",http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf,
+U2,USB_C_PD_CONNECTOR,footprint:USBC_16PIN,,
+,,,,
+,,,,
+,,,,
+,AO3400A,1,http://www.aosmd.com/pdfs/datasheet/ao3400.pdf,https://item.taobao.com/item.htm?spm=a1z0d.7625083.1998302264.6.5c5f4e69aa1lXW&id=601782453027
+,"C105,0805",1,,https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21047669632.12.270827e5nGg1o1&id=535541890013
+,"C106,0805",1,,https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21047669632.14.76cd27e5x3EFmq&id=587421350070
+,Conn_01x02_Female,1,,
+,IP2721,1,,
+,"R104,0805",1,,
+,"R513,0805",2,,
+,USB_C_PD_CONNECTOR,1,,
